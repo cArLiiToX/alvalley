@@ -1,0 +1,36 @@
+<?php
+$model	=	Mage::getModel('catalog/category');
+//$rootCategoryId = Mage::app()->getStore()->getRootCategoryId();
+$categoryId = $this->getData('category_id');
+$category = $model->load($categoryId);
+
+$curId = $this->getRequest()->getParam('cat');
+
+$_helper    = $this->helper('catalog/output');
+$cats	=	Mage::helper('em0113settings')->getSubCategory($category,$curId);
+$setting = Mage::helper('em0113settings');
+$w 	= $setting->getImageFeaturedCategory_Width();
+$count = count($cats);
+?>
+<h5>
+	<a href="<?php echo $category->getUrl() ?>"	title="<?php echo $_helper->categoryAttribute($category, $category->getName(), 'name') ?>"><?php echo $_helper->categoryAttribute($category, $category->getName(), 'name') ?></a>
+</h5>
+
+<div class="sub-cat">
+<?php if(Mage::getModel('catalog/category')->load($category->getId())->getThumbnail() != "") : ?>
+		<a href="<?php echo $category->getUrl() ?>"	title="<?php echo $_helper->categoryAttribute($category, $category->getName(), 'name') ?>">
+			<img src="<?php echo Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_MEDIA).'catalog/category/'.Mage::getModel('catalog/category')->load($category->getId())->getThumbnail(); ?>"	alt="<?php echo $_helper->categoryAttribute($category, $category->getName(), 'name') ?>" width="<?php if($w){ echo $w; }else{ echo 'auto'; } ?>" />
+		</a> 
+<?php endif ?>
+<ul class="products-cat">
+	<?php foreach($cats as $_cate): ?>
+	<?php $_cate	=	Mage::getModel('catalog/category')->load($_cate->getId()); ?>
+	<li class="item" >
+	<div class="item_category">
+			<a href="<?php echo $_cate->getUrl() ?>" title="<?php echo $_helper->categoryAttribute($_cate, $_cate->getName(), 'name') ?>"><span><?php echo $_helper->categoryAttribute($_cate, $_cate->getName(), 'name') ?></span></a>
+	</div>
+	</li>
+	<?php endforeach ?>
+</ul>
+<p class="view-more"><a href="<?php echo $category->getUrl() ?>"	title="<?php echo $this->__("Shop all") ?>"><?php echo $this->__("Shop all") ?></a></p>
+</div>

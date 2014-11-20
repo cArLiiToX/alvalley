@@ -1,0 +1,12 @@
+media/catalog/*
+media/customer/*
+media/dhl/*
+media/downloadable/*
+var/cache/*
+var/locks/*
+var/log/*
+var/report/*
+var/session/*
+errors/*
+app/etc/local.xml
+

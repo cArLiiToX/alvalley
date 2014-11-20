@@ -1,0 +1,189 @@
+/* Gala Timeout */
+font: /*BEGIN:general_font*/12px/1.35 Arial, Helvetica, sans-serif/*END:general_font*/;
+font:/*BEGIN:h1_font*/normal 22px/1.15 helvetica,arial,sans-serif /*END:h1_font*/;
+font:/*BEGIN:h2_font*/ normal 20px/1.25 helvetica,arial,sans-serif/*END:h2_font*/;
+font:/*BEGIN:h3_font*/normal 18px/1.35 helvetica,arial,sans-serif /*END:h3_font*/;
+font:/*BEGIN:h4_font*/normal 16px/1.35 helvetica,arial,sans-serif /*END:h4_font*/;
+font:/*BEGIN:h5_font*/normal 14px/1.35 helvetica,arial,sans-serif /*END:h5_font*/;
+font:/*BEGIN:h6_font*/normal 12px/1.35 helvetica,arial,sans-serif /*END:h6_font*/;
+
+/*Page*/
+background-color:/*BEGIN:page_bgcolor*/#ffffff/*END:page_bgcolor*/;
+background-image: /*BEGIN:page_bgimage*/url(../images/stripes/blank.gif)/*END:page_bgimage*/;
+background-position: /*BEGIN:page_bgposition*/0 0/*END:page_bgposition*/;
+background-repeat: /*BEGIN:page_bgrepeat*/repeat/*END:page_bgrepeat*/;
+
+/* Header */
+color:/*BEGIN:header_text_color*/#969696/*END:header_text_color*/; //text header
+color:/*BEGIN:header_text2_color*/#02b0d2/*END:header_text2_color*/;// text hover/active
+color:/*BEGIN:header_text3_color*/#323232/*END:header_text3_color*/;// text cart, text title
+color:/*BEGIN:header_text4_color*/#dd2031/*END:header_text4_color*/;// free account
+color:/*BEGIN:header_text5_color*/#fa722d/*END:header_text5_color*/;// free account
+border: 1px solid /*BEGIN:header_line*/#dcdcdc/*END:header_line*/
+
+
+background-color:/*BEGIN:header_bgcolor*/#ffffff/*END:header_bgcolor*/;
+background-image: /*BEGIN:header_bgimage*/url(../images/stripes/blank.gif)/*END:header_bgimage*/;
+background-position: /*BEGIN:header_bgposition*/0 0/*END:header_bgposition*/;
+background-repeat: /*BEGIN:header_bgrepeat*/repeat/*END:header_bgrepeat*/;
+background-color:/*BEGIN:header_bgcolor2*/#ffffff/*END:header_bgcolor2*/; search
+
+
+/* Top Menu */
+background-color:/*BEGIN:menu_top_bgcolor*/#ffe269/*END:menu_top_bgcolor*/;   //bkg menu
+background-color:/*BEGIN:menu_top_hover_bgcolor*/#ee7d32/*END:menu_top_hover_bgcolor*/; // bkg menu bottom
+color:/*BEGIN:menu_top_text_color*/#323232/*END:menu_top_text_color*/;
+color:/*BEGIN:menu_active_text_color*/#13b3cb/*END:menu_active_text_color*/ ;
+font:/*BEGIN:menu_top_font*/normal 14px/1.35 helvetica,arial,sans-serif /*END:menu_top_font*/;
+
+
+/* Drop Menu */
+background:/*BEGIN:menu_drop_bgcolor*/#ffffff/*END:menu_drop_bgcolor*/;
+color:/*BEGIN:menu_drop_text_color*/#555555/*END:menu_drop_text_color*/; menu text 
+color:/*BEGIN:menu_drop_text2_color*/#02b0d2/*END:menu_drop_text2_color*/; hover
+color:/*BEGIN:menu_drop_text3_color*/#323232/*END:menu_drop_text3_color*/; title dd menu
+font:/*BEGIN:menu_drop_font*/12px/1.35 Arial, Helvetica, sans-serif/*END:menu_drop_font*/;
+border: 1px solid /*BEGIN:menu_drop_line*/#e6e6e6/*END:menu_drop_line*/ --
+
+/* Body */
+background-color:/*BEGIN:body_bgcolor1*/#ffffff/*END:body_bgcolor1*/; 
+background-image: /*BEGIN:body_bgimage*/url(../images/stripes/blank.gif)/*END:body_bgimage*/;
+background-position:/*BEGIN:body_bgposition*/0 0/*END:body_bgposition*/;
+background-repeat:/*BEGIN:body_bgrepeat*/repeat/*END:body_bgrepeat*/;
+background-color:/*BEGIN:body_bgcolor2*/#6cc3d6/*END:body_bgcolor2*/; bkg tab hover/active
+background-color:/*BEGIN:body_bgcolor3*/#666666/*END:body_bgcolor3*/ ; bkg tab
+background-color:/*BEGIN:body_bgcolor4*/#999999/*END:body_bgcolor4*/ ;  bkg title shopby,title  step checkout,title table..
+background-color:/*BEGIN:body_bgcolor5*/#f6f6f6/*END:body_bgcolor5*/ ;  bkg shopby, title  step checkout...
+
+
+color:/*BEGIN:body_text_color1*/#323232/*END:body_text_color1*/; // title block, product name, price..
+color:/*BEGIN:body_text_color2*/#555555/*END:body_text_color2*/; //body text
+color:/*BEGIN:body_text_color3*/#a0a0a0/*END:body_text_color3*/; //body text
+color:/*BEGIN:body_text_color4*/#02b0d2/*END:body_text_color4*/; // text hover shopby, hover product name
+color:/*BEGIN:body_text_color5*/#ffffff/*END:body_text_color5*/; //title  step checkout,title table...
+color:/*BEGIN:body_text_color6*/#fa722d/*END:body_text_color6*/; //text link
+color:/*BEGIN:body_text_color7*/#d50002/*END:body_text_color7*/; //price, require..
+
+
+
+border: 1px solid /*BEGIN:body_line1*/#dcdcdc/*END:body_line1*/; border input
+border: 2px solid /*BEGIN:body_line2*/#6cc3d6/*END:body_line2*/; border title tab
+border: 1px solid /*BEGIN:body_line3*/#e6e6e6/*END:body_line3*/; border block
+border: 1px solid /*BEGIN:body_line4*/#e6e6e6/*END:body_line4*/; //bo
+
+
+box-shadow:/*BEGIN:box_shadow*/ 0 0 5px #c4c4c3/*END:box_shadow*/ ;
+-moz-box-shadow:/*BEGIN:box_shadow*/ 0 0 5px rgba(196,196,195,1.00)/*END:box_shadow*/ ;
+-webkit-box-shadow: /*BEGIN:box_shadow*/0 0 5px rgba(196,196,195,1.00)/*END:box_shadow*/ ;
+box-shadow:/*BEGIN:box_shadow*/ none/*END:box_shadow*/ ;
+-moz-box-shadow:/*BEGIN:box_shadow*/ none/*END:box_shadow*/ ;
+-webkit-box-shadow: /*BEGIN:box_shadow*/none/*END:box_shadow*/ ;
+
+border-radius:/*BEGIN:rounded_corner*/3px/*END:rounded_corner*/;
+-webkit-border-radius: /*BEGIN:rounded_corner*/3px/*END:rounded_corner*/;
+-moz-border-radius:/*BEGIN:rounded_corner*/3px/*END:rounded_corner*/;
+.arrow-box{ position: relative;}
+.arrow-box:after, .arrow-box:before{ width:0; height:0; content: ""; position: absolute; top:4px; left:5px }
+.arrow-box:before{ border: 3px solid transparent; border-left-color: #7c97bf;}
+
+
+
+/* Footer */
+background-color:/*BEGIN:footer_bgcolor*/#64bacb/*END:footer_bgcolor*/; 
+background-image: /*BEGIN:footer_bgimage*/url(../images/stripes/blank.gif)/*END:footer_bgimage*/;
+background-position:/*BEGIN:footer_bgposition*/0 0/*END:footer_bgposition*/;
+background-repeat:/*BEGIN:footer_bgrepeat*/repeat/*END:footer_bgrepeat*/;
+background-color:/*BEGIN:footer_bgcolor2*/#45a8bb/*END:footer_bgcolor2*/;
+
+color:/*BEGIN:footer_text_color1*/#ffffff/*END:footer_text_color1*/; text
+color:/*BEGIN:footer_text_color2*/#076274/*END:footer_text_color2*/; text footer
+border: 1px solid /*BEGIN:footer_line1*/#45a8bb/*END:footer_line1*/; //footer top
+border: 1px solid /*BEGIN:footer_line2*/#7ecdda/*END:footer_line2*/; //footer center
+
+
+
+
+
+/* Button */ 
+/* button add to cart*/
+background:/*BEGIN:button1_bgcolor*/#fa722d/*END:button1_bgcolor*/;
+color:/*BEGIN:button1_color*/#ffffff/*END:button1_color*/;
+font:/*BEGIN:button1_font*/14px/1.35 Arial, Helvetica, sans-serif/*END:button1_font*/;
+
+/* button checkout*/
+background:/*BEGIN:button2_bgcolor*/#d50002/*END:button2_bgcolor*/;
+color:/*BEGIN:button2_color*/#ffffff/*END:button2_color*/;
+font:/*BEGIN:button2_font*/18px/1.35 Arial, Helvetica, sans-serif/*END:button2_font*/;
+
+/* button block,btn defaults*/
+
+background:/*BEGIN:button3_bgcolor*/#ffe269/*END:button3_bgcolor*/;
+color:/*BEGIN:button3_color*/#323232/*END:button3_color*/;
+font:/*BEGIN:button3_font*/14px/1.35 Arial, Helvetica, sans-serif/*END:button3_font*/;
+
+/*btn subscribe*/
+background:/*BEGIN:button4_bgcolor*/#02b0d2/*END:button4_bgcolor*/;
+color:/*BEGIN:button4_color*/#ffffff/*END:button4_color*/;
+font:/*BEGIN:button4_font*/14px/1.35 Arial, Helvetica, sans-serif/*END:button4_font*/;
+
+
+/*Image*/
+- tab slider home page: 160x160
+- block special, lastest review, recent review, moreview, compare product, dropdown cart, table shopping cart, wishlist: 80x80
+- category image, related product, upsell, crossell, image compare page: 240x240
+- css lai phan san pham o menu
+
+
+/*note*/	
+- cart loi - fixed
+- thieu block free account - fixed
+- slideshow cho truong hop full slideshow hoac khong o dang wide - css lai - fixed
+- menu_top_font k hieu bien mau - fixed
+-bo qs trong dropdown menu - fixed
+- slider tab k click next duoc - fixed
+- co de quickshop trong tab k tr - fixed
+- FEATURED CATEGORIES mat nd category - fixed
+- add text cho newletter nhu design - fixed
+- chua có back to top - fixed
+- hinh base trang detail config trong admin hien thi du 2px- fixed
+-click varition ngoai fontend loi. k hien thi - fixed
+-rating-links  o product shop du <span itemprop="reviewCount">2</span> - fixed
+- sua lai cau truc cua button ad to cart trang detail giong cau truc site http://192.168.1.23/Gala_Timeout/trunk/site/index.php/coalesce-functioning-on-impatience-t-shirt.html - fixed
+- title tab trang detail sua lai height 41px nhu trang home- fixed
+- sua lai tab detail chay muot giong tab trang home,hien tai bi giut len
+- review dua ra ngoai tab - fixed
+- xem lai xet width height cua slider trong admin - fixed
+-tru sp dang simple, cac dang sp con lai du add to link,co hai availability  - fixed
+- viewmore chua co slider - fixed
+- thead  cua table, th cuoi cung them class last
+-bo banner left trang checkout - fixed
+- them block left trang login - fixed
+- trang register chuyen lai 1col - fixed
+-trang forgetpass neu de 2col thi them banner left giong login. k thi chuyen lai 1col - fixed
+-blog chuyen thanh 2col left - fixed
+-thieu category blog - fixed
+-bo img trong RECENT POSTS - fixed
+-detail blog co khoang trong phia duoi footer
+- 2 loi 404 toan site - fixed
+-trang login, forgotpass footer du block - fixed
+- admin k co cho chuyen sang checkout 1buoc - fixed
+- checkout 1 buoc loi - fixed
+- btn qs k nam giua img - fixed
+-k hien thi menu default - fixed
+-widgets home_ads_2 keo ra khoi col-main(nhac css lai) - fixed
+-slider trang home, resize qua lai du khoang trang phia duoi - fixed
+-table checkout bo img khoi table, de lai dang mac dinh - fixed
+- footer_links muc mobile loi chuc nang show/hide - fixed
+- detail du add to link http://192.168.1.11/em0113/trunk/site/index.php/dogs/download-products.html  - fixed
+Page Background Pattern trong admin loi img - fixed
+Block Social On Details chua co - fixed
+
+- Page Background Pattern trong admin k chon duoc - fixed
+- chinh lai hien thi box/wide o backend va fontend cho thong nhat (box show thong tin. wide an thong tin)
+
+//nang cap
+an welcome-msg nhu ban 1.7 - fixed
+add compare trong qs k duoc - fixed
+trang checkout loi - fixed
+
+

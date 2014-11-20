@@ -1,0 +1,43 @@
+
+
+.block-cart-top .cart-popup{background-color:/*BEGIN:body_bgcolor1*/#ffffff/*END:body_bgcolor1*/; }
+/*slider home*/
+
+.form-search button.button span span{background-image:url(../images/kidcare/icons.png)}
+.form-search button.button:hover span span{}
+a.next, .csslider a.next,.icon,a.prev, .csslider a.prev{background-image:url(../images/kidcare/icons.png)}
+
+.wrapper-category .title span,.wrapper-category .title{background-image:url(../images/kidcare/bkg-featured.png)}
+
+
+/*rating*/
+.rating-box,.rating-box .rating{background-image:url(../images/kidcare/bkg-rating.png)}
+
+/*menu*/
+.em_nav li a{text-transform:capitalize}
+.hnav .menu-item-depth-0 > a, .em-catalog-navigation.horizontal > li > a{background-image:none;display:inline-block;  vertical-align:middle; text-align:left;padding:6px 10px 6px 10px}
+.hnav .menu-item-depth-0 > a.arrow, .em-catalog-navigation.horizontal > li > a.arrow{display:none;}
+
+/*slideshow*/
+.tp-rightarrow.default,.tp-leftarrow.default{background-image:url(../images/kidcare/icons.png)}
+.cms-index-index  .main-slideshow {padding-top:40px;}
+
+
+/*wrapper-category*/
+.wrapper-category .title{color:/*BEGIN:body_text_color5*/#ffffff/*END:body_text_color5*/;}
+.wrapper-category .home_cat h5{font:/*BEGIN:h5_font*/normal 14px/1.35 helvetica,arial,sans-serif /*END:h5_font*/;}
+
+.wrapper-category .home_cat img{margin-top:0}
+.brand-logo{background-image:url(../images/fashion/logos.png)}
+
+
+@media (max-width: 767px){.hnav .menu-item-depth-0 > a, .em-catalog-navigation.horizontal > li > a{display:block}}
+
+
+
+
+
+
+
+
+
